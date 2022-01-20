@@ -161,8 +161,8 @@ function keyReleased() {
 function gameOver() {
   swal(
     {
-      title: `Game Over!!!`,
-      confirmButtonText: "Play Again"
+      title: `¡Fin del juego!`,
+      confirmButtonText: "Jugar de nuevo"
     },
     function(isConfirm) {
       if (isConfirm) {
